@@ -2,8 +2,8 @@ from model import entity, idb
 
 
 def main():
-    d = {'title': "Это третья статья",
-         'content': "Это текст третей статьи"}
+    d = {'title': "3Это третья статья",
+         'content': "3Это текст третей статьи"}
     art3 = entity.Article(**d)
     print(art3)
     idb.save_new_entity(art3)
